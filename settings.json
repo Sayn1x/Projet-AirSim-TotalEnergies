@@ -1,0 +1,51 @@
+{
+    "SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/main/docs/settings.md",
+    "SettingsVersion": 1.2,
+    "SimMode": "Multirotor",
+    "Vehicles": {
+        "Drone1": {
+            "VehicleType": "SimpleFlight",
+            "AutoCreate": true
+        }
+    },
+    "CameraDefaults": {
+        "CaptureSettings": [
+            {
+                "ImageType": 0,
+                "Width": 1920,
+                "Height": 1080
+            },
+            {
+                "ImageType": 2,
+                "Width": 640,
+                "Height": 360
+            }
+        ]
+    },
+    "SubWindows": [
+        {
+            "WindowID": 0,
+            "ImageType": 3,
+            "CameraName": "0",
+            "VehicleName": "Drone1",
+            "Visible": true
+        },
+        {
+            "WindowID": 1,
+            "ImageType": 0,
+            "CameraName": "0",
+            "VehicleName": "Drone1",
+            "Visible": true
+        },
+        {
+            "WindowID": 2,
+            "ImageType": 7,
+            "CameraName": "0",
+            "VehicleName": "Drone1",
+            "Visible": true
+        }
+    ],
+    "UnrealEngine": {
+        "Path": "C:\\local\\Unreal_AirSim\\UE_4.27"
+    }
+}
